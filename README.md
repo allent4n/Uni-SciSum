@@ -36,7 +36,7 @@ Uni-SciSum is a novel multimodal scientific summarisation model for multimodal o
    
 4. **Reproduce Results:**
    
-   You need to resolve around 10G of space for the LMs and data, you can run the following code for the reproduction of the model performance:
+   You need to resolve around 10G of space for the LLMs and data, you can run the following code for the reproduction of the model performance:
    ```shell
    bash run_finetune.sh
    ```
