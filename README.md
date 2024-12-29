@@ -11,7 +11,7 @@
 ## ❓ What is Uni-SciSum
 
 Uni-SciSum is a novel multimodal scientific summarisation model for multimodal output. Uni-SciSum aims to enable LLMs to effectively utilize textual, visual and auditoral content for scientific summarisation. Our model connects unimodal encoders to multimodal decoders via BridgeNet. During pretraining, the learnable queries in BridgeNet learn to extract modality-specific features from the encoders. During downstream tasks, the decoder generates embeddings based on different inputs and outputs (guided by the prompt and the learned queries), which the LLM then decodes into the target text summary and GA.
-![Uploading framework_v3.png…]()
+<img width="1342" alt="framework_v3" src="https://github.com/user-attachments/assets/d51ab625-37eb-4abd-8ad2-6f2bb109177f" />
 
 
 ## ⚡️ Quickstart
