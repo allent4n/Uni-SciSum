@@ -10,7 +10,9 @@
 
 ## ❓ What is Uni-SciSum
 
-Uni-SciSum is a novel multimodal scientific summarisation model for multimodal output. VAT-Sum aims to enable LMs to effectively utilize textual, visual and audio content for scientific document summarisation. With the use of Q-Former, our model can effectively fuse these multimodal inputs and feed them into the lightweight LM for efficient summarisation. This lightweight LM facilitates efficient downstream adaptation without sacrificing performance.
+Uni-SciSum is a novel multimodal scientific summarisation model for multimodal output. Uni-SciSum aims to enable LLMs to effectively utilize textual, visual and auditoral content for scientific summarisation. Our model connects unimodal encoders to multimodal decoders via BridgeNet. During pretraining, the learnable queries in BridgeNet learn to extract modality-specific features from the encoders. During downstream tasks, the decoder generates embeddings based on different inputs and outputs (guided by the prompt and the learned queries), which the LLM then decodes into the target text summary and GA.
+![Uploading framework_v3.png…]()
+
 
 ## ⚡️ Quickstart
 1. **Clone the GitHub Repository:** 
