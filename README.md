@@ -44,7 +44,30 @@ Uni-SciSum is a novel multimodal scientific summarisation model for multimodal o
 ## 🔎 Citation
 
 ```
-[]
+@inproceedings{tan-etal-2025-enhancing,
+    title = "Enhancing Large Language Models for Scientific Multimodal Summarization with Multimodal Output",
+    author = "Tan, Zusheng  and
+      Zhong, Xinyi  and
+      Ji, Jing-Yu  and
+      Jiang, Wei  and
+      Chiu, Billy",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven  and
+      Darwish, Kareem  and
+      Agarwal, Apoorv",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics: Industry Track",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-industry.22/",
+    pages = "263--275",
+    abstract = "The increasing integration of multimedia such as videos and graphical abstracts in scientific publications necessitates advanced summarization techniques. This paper introduces Uni-SciSum, a framework for Scientific Multimodal Summarization with Multimodal Output (SMSMO), addressing the challenges of fusing heterogeneous data sources (e.g., text, images, video, audio) and outputting multimodal summary within a unified architecture. Uni-SciSum leverages the power of large language models (LLMs) and extends its capability to cross-modal understanding through BridgeNet, a query-based transformer that fuses diverse modalities into a fixed-length embedding. A two-stage training process, involving modal-to-modal pre-training and cross-modal instruction tuning, aligns different modalities with summaries and optimizes for multimodal summary generation. Experiments on two new SMSMO datasets show Uni-SciSum outperforms uni- and multi-modality methods, advancing LLM applications in the increasingly multimodal realm of scientific communication."
+}
 ```
 
 
