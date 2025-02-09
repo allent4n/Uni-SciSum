@@ -2,7 +2,7 @@
 
 # Uni-SciSum: Enhancing Large Language Models for Scientific Multimodal Summarization with Multimodal Output
 
-[![Paper](https://img.shields.io/badge/paper--blue)](https://aclanthology.org/2025.coling-industry.22/)
+[![Paper](https://img.shields.io/badge/paper-COLING2025-blue)](https://aclanthology.org/2025.coling-industry.22/)
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 
 </div>
