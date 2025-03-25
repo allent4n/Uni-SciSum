@@ -7,6 +7,8 @@
 
 </div>
 
+## Official implementation of Enhancing Large Language Models for Scientific Multimodal Summarization with Multimodal Output
+
 
 ## ❓ What is Uni-SciSum
 
