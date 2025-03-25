@@ -7,7 +7,7 @@
 
 </div>
 
-Official implementation of Enhancing Large Language Models for Scientific Multimodal Summarization with Multimodal Output
+Official implementation of [Enhancing Large Language Models for Scientific Multimodal Summarization with Multimodal Output](https://aclanthology.org/2025.coling-industry.22/)
 
 
 ## ❓ What is Uni-SciSum
